@@ -101,3 +101,5 @@ ENV/
 # Rope project settings
 .ropeproject
 .idea
+yolo2_data
+yolo2_model
