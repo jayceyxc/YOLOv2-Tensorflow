@@ -13,12 +13,14 @@ anchors = [[0.57273, 0.677385],
            [7.88282, 3.52778],
            [9.77052, 9.16828]]
 
+
 def read_coco_labels():
     f = open("./yolo2_data/coco_classes.txt")
     class_names = []
     for l in f.readlines():
-        l = l.strip() # 去掉回车'\n'
+        l = l.strip()  # 去掉回车'\n'
         class_names.append(l)
     return class_names
+
 
 class_names = read_coco_labels()
